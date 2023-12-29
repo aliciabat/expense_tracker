@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:expense_tracker/widgets/expenses.dart';
 
 var kColorScheme = ColorScheme.fromSeed(
-  seedColor: Colors.green,
+  seedColor: Colors.deepPurple,
   // seedColor: Colors.pink.shade300,
 );
 var kDarkColorScheme = ColorScheme.fromSeed(
   brightness: Brightness.dark,
   // seedColor: Colors.blue.shade300,
-  seedColor: Colors.greenAccent,
+  seedColor: Colors.cyan,
 );
 
 void main() {
@@ -50,7 +50,6 @@ void main() {
               ),
             ),
       ),
-      // themeMode: ThemeMode.dark,
       home: const Expenses(),
     ),
   );
